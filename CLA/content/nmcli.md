@@ -61,6 +61,9 @@ To delete a saved connection:
 ```
 $ nmcli con delete <conn>
 ```
+Note that you must first get the exact `<conn>` from `nmcli con show` and not
+rely on the `<ssid>` of your network because there may be multiple instances
+of the same network.
 
 ## Wifi device control
 
@@ -75,4 +78,24 @@ $ nmcli radio wifi on
 To turn off all radio switches:
 ```
 $ nmcli radio all off
+```
+To turn on all radio switches:
+```
+$ nmcli radio all on
+```
+
+## Create a bridge connection
+
+First we must add a bridge-type connection:
+```
+$ nmcli con add type bridge ifname bridge0
+```
+Then we add a bridge slave and connect it to the physical NIC:
+```
+$ nmcli con add type bridge-slave ifname <if> master bridge0
+```
+Now we should bring down the "Wired connection" which is created by default
+when connecting a wired cable:
+```
+$ nmcli con up bridge-bridge0
 ```
