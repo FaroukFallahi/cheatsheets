@@ -4,3 +4,4 @@ the fact that it's files are formatted in simple plain text files.
 
 ## Table of Contents
 - [001 Basic document structure](./content/001_basic_document_structure.md)
+- [002 Sections](./content/002_sections.md)
