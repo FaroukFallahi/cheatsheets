@@ -1,27 +1,35 @@
 # Text formatting
 
-These are stuff like bold, italic, etc.
+Bold text:
 
 ```latex
-...
-\begin{document}
+\textbf{this is bold}
+```
 
-\LaTeX text formatting:
+Italic text:
 
-\textbf{this is bold} \emph{this is italic} \underline{this is underlined}
+```latex
+\emph{this is italic}
+```
 
-Here is the first paragraph
+Underlined text:
 
-And second
+```latex
+\underline{this is underlined}
+```
 
-And third
+Non-indented paragraph:
+
+```latex
+Here is a paragraph
 
 \noindent This is a non-indented paragraph.
 
-And last
+And another paragraph
+```
 
-\section{quotes}
+Single and double quotes:
+
+```latex
 This is `single' and this is ``double" quote!
-
-\end{document}
 ```
