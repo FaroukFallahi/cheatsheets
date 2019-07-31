@@ -35,6 +35,7 @@ also auto-numbered. But sometime's we want sections without their number, to
 get that we can use a * (star) to indicate that we don't need them:
 
 ```latex
+...
 \begin{document}
 
 \section*{Not-numbered abstract}
@@ -47,6 +48,7 @@ Some other content here.
 
 \section{End}
 Yet some other content.
+
 \end{document}
 ```
 
