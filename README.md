@@ -4,4 +4,4 @@ thought they can become handy for others to use.
 
 ## Table of Contents
 - [LaTeX](./LaTeX/)
-
+- [Command line applications](./CLA/)
