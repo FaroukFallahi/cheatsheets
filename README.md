@@ -6,3 +6,4 @@ thought they can become handy for others to use.
 - [Command line applications](./CLA/)
 - [LaTeX](./LaTeX/)
 - [Photo Editing](./PhotoEditing/)
+- [Security](./Security/)
