@@ -1,7 +1,7 @@
 # Linux Hardening
 
 ## General
-- Less packages => Less vulnerability probablity
+- Less packages => Less vulnerability probablity (ex: no Xorg)
 - Enable SELinux or Apparmor
 - Prevent users from using old passwords
 

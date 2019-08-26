@@ -1,6 +1,7 @@
 # Command line applications
 
 ## Available in Linux
+- [ffmpeg](./content/Linux/ffmpeg.md)
 - [git](./content/Linux/git.md)
 - [netstat](./content/Linux/netstat.md)
 - [nmcli](./content/Linux/nmcli.md)
