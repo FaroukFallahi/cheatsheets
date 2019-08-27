@@ -4,6 +4,8 @@ thought they can become handy for others to use.
 
 ## Table of Contents
 - [Command line applications](./CLA/)
+- [Internet](./Internet/)
 - [LaTeX](./LaTeX/)
 - [Photo Editing](./PhotoEditing/)
+- [Photography](./Photography/)
 - [Security](./Security/)
