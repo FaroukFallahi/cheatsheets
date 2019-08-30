@@ -22,4 +22,3 @@ DELETE:
 - `d3w` `operation(d) count(3) motion(w)` deletes three words
 - `2d3w` `count(2) operation(d) count(3) motion(w)` delete three words twice
 - `.` repeat the previous command
-----------------------------------------------------------------------
