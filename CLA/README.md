@@ -3,8 +3,10 @@
 ## Available in Linux
 - [TRICKS](./content/Linux/TRICKS.md)
 - [arp-scan](./content/Linux/arp-scan.md)
+- [cryptsetup](./content/Linux/cryptsetup.md)
 - [eyeD3](./content/Linux/eyeD3.md)
 - [ffmpeg](./content/Linux/ffmpeg.md)
+- [fstab](./content/Linux/fstab.md)
 - [git](./content/Linux/git.md)
 - [gs](./content/Linux/gs.md)
 - [netcat](./content/Linux/netcat.md)
