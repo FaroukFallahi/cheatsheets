@@ -6,6 +6,7 @@ thought they can become handy for others to use.
 - [Command line applications](./CLA/)
 - [Internet](./Internet/)
 - [LaTeX](./LaTeX/)
+- [LinuxDesktop](./LinuxDesktop/)
 - [Photo Editing](./PhotoEditing/)
 - [Photography](./Photography/)
 - [Security](./Security/)

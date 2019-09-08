@@ -95,7 +95,13 @@ Then we add a bridge slave and connect it to the physical NIC:
 $ nmcli con add type bridge-slave ifname <if> master bridge0
 ```
 Now we should bring down the "Wired connection" which is created by default
-when connecting a wired cable:
+when connecting a wired cable and then bringing the newly created connection up:
 ```bash
+$ nmcli con down "Wired Connection 1"
 $ nmcli con up bridge-bridge0
+```
+If we like to have a certain short name (without the bridge-\* prefix) then:
+```bash
+$ sudo nmcli con add ifname br0 type bridge con-name br0
+$ sudo nmcli con add type bridge-slave ifname <if> master br0
 ```
