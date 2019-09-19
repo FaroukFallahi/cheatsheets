@@ -27,3 +27,12 @@ mv slow.${filename} converted; \
 done
 ```
 The `sed` removes the preceding `./` from the output that `find` generates.
+
+To convert to 30fps:
+```bash
+$ find . -type f > filenames.txt; \
+mkdir converted; for filename in $(cat filenames.txt | sed "s/\.\///g" | grep ".MOV"); do \
+ffmpeg -i $filename -filter:v fps=fps=30 slow.${filename}; \
+mv slow.${filename} converted; \
+done
+```
