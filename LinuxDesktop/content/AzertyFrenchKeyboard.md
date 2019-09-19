@@ -16,9 +16,18 @@ going to the settings and click the `eye icon` right beside French in the
 
 So now you have a very good high-level understanding of the key locations, but
 still, some characters are not there (hell i even can't find the one which
-combines `o` and `e` yet!).
+combines `o` and `e` yet (aside from the unicode method)).
 
 ## Special characters
+
+### Use unicode characters
+Before we begin, let me tell you that all of these characters are unicode
+so we can just simply use their unicode number. This is a fallback option
+because it's too hard to remember all those numbers (we are humans not robots)
+but for instance the œ ligature, there is no other way that i know of to type
+it. In windows, you can type these by hitting a `right alt` and then typing
+the unicode number, but in Linux, you can hit `ctrl+shift+u` then a `u`
+appears, now type the number for ex. 0153 and finally `enter`.
 
 ### Keys found directly on the azerty keyboard
 - é: The number `2` right above `w`
