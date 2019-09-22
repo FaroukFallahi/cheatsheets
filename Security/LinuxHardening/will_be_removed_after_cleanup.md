@@ -1,7 +1,6 @@
-# Linux Hardening
 
+The ones below are not yet confirmed.
 ## General
-- Less packages => Less vulnerability probablity (ex: no Xorg)
 - Enable SELinux or Apparmor
 - Prevent users from using old passwords
 
@@ -12,7 +11,6 @@
 
 ## Boot
 - Disable other boot devices (DVD, CD, USB) in bios
-- Set Firmware and GRUB password
 - Disable `Ctrl+Alt+Delete` and prevent accidental reboot
 
 ## Network
