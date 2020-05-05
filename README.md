@@ -9,4 +9,6 @@ thought they can become handy for others to use.
 - [LinuxDesktop](./LinuxDesktop/)
 - [Photo Editing](./PhotoEditing/)
 - [Photography](./Photography/)
+- [Regex](./Regex)
 - [Security](./Security/)
+- [Vim](./Vim)
