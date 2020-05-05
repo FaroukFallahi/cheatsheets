@@ -1,7 +1,7 @@
 # form
 These are regexes that are useful in different sort of forms in programming.
 
-# Email
+## Email
 ```
 ^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$
 ```
