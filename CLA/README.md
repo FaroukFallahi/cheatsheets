@@ -1,7 +1,6 @@
 # Command line applications
 
 ## Available in Linux
-- [TRICKS](./content/Linux/TRICKS.md)
 - [arp-scan](./content/Linux/arp-scan.md)
 - [cryptsetup](./content/Linux/cryptsetup.md)
 - [eyeD3](./content/Linux/eyeD3.md)
