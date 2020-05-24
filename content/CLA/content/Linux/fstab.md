@@ -16,11 +16,11 @@ UUID=<uuid> <mount-point> ntfs permissions,locale=en_US.utf8
 ## for an encrypted ext4 filesystem (dm_crypt)
 First we should add this to our fstab file:
 ```bash
-/dev/mapper/someName <mount-point> ext4 defaults,errors=remount-ro 0 2
+/dev/mapper/mzd <mount-point> ext4 defaults,errors=remount-ro 0 2
 ```
 Then we can add this to our `/etc/crypttab`:
 ```bash
-DataDisk UUID=<uuid> <key-file-location> luks,timeout=180
+mzd UUID=<uuid> <key-file-location> luks,timeout=180
 ```
 Note that we must store our key like this:
 ```bash
