@@ -2,6 +2,7 @@
 
 ## Available in Linux
 - [arp-scan](./content/Linux/arp-scan.md)
+- [bash](./content/Linux/bash.md)
 - [cryptsetup](./content/Linux/cryptsetup.md)
 - [eyeD3](./content/Linux/eyeD3.md)
 - [ffmpeg](./content/Linux/ffmpeg.md)
@@ -13,6 +14,7 @@
 - [nmap](./content/Linux/nmap.md)
 - [nmcli](./content/Linux/nmcli.md)
 - [rar and unrar](./content/Linux/rar_and_unrar.md)
+- [regex](./content/Linux/regex.md)
 - [sed](./content/Linux/sed.md)
 - [sftp](./content/Linux/sftp.md)
 - [tcpdump](./content/Linux/tcpdump.md)
