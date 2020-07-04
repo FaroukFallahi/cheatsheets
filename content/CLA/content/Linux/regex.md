@@ -39,10 +39,6 @@ Oposite of the previous. Things that mean something other than themselves.
 ## sequence of characters
 Putting multiple literal characters in a sequence will make a sequence (string).
 
-## other stuff here
-
-...
-
 ## Email
 
 ```
