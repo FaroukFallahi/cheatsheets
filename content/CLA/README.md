@@ -14,6 +14,7 @@
 - [nmap](./content/Linux/nmap.md)
 - [nmcli](./content/Linux/nmcli.md)
 - [rar and unrar](./content/Linux/rar_and_unrar.md)
+- [rsync](./content/Linux/rsync.md)
 - [regex](./content/Linux/regex.md)
 - [sed](./content/Linux/sed.md)
 - [sftp](./content/Linux/sftp.md)
