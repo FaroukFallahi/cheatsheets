@@ -20,4 +20,5 @@
 - [sftp](./content/Linux/sftp.md)
 - [tcpdump](./content/Linux/tcpdump.md)
 - [tmux](./content/Linux/tmux.md)
+- [weget](./content/Linux/wget.md)
 - [youtube-dl](./content/Linux/youtube_dl.md)
