@@ -4,7 +4,6 @@ thought they can become handy for others to use.
 
 ## Table of Contents
 - [Command line applications](./content/CLA/)
-- [LaTeX](./content/LaTeX/)
 - [Photography](./content/Photography/)
 - [Security](./content/Security/)
 - [Vim](./content/Vim)
